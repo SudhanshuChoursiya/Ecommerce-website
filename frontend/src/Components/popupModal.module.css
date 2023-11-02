@@ -1,0 +1,46 @@
+.dialog__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.55rem !important;
+}
+
+.modal__content__text {
+  font-size: 1.55rem !important;
+  width: 350px !important;
+}
+
+.modal__actions .modal__btn {
+  background-color: #4834d4;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.15rem;
+  padding: 0.8rem 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 0.2rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.modal__spinner {
+  color: #4834d4 !important;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  .modal__content__text {
+    width: 65vw !important;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  .modal__content__text {
+    width: 65vw !important;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+}

@@ -1,0 +1,48 @@
+.delivery__services__container {
+  margin-bottom: 2rem;
+  padding: 1.4rem 1rem;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  margin: 0 5rem;
+}
+
+.service__container .service__icon__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:0.5rem;
+}
+
+.service__icon__container .service__icon {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.service__title {
+  width: 8rem;
+  height: 2.2rem;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+.service__container{
+  margin: 0 2rem;
+}
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+.service__container{
+  margin: 0 2rem;
+}
+}

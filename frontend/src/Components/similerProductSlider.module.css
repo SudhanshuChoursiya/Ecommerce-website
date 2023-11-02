@@ -1,0 +1,25 @@
+.similer__product__container {
+  margin-bottom: 2rem;
+  padding: 1.4rem 0;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  margin-left: 1.5rem;
+}
+
+.swiper__slide:last-child .card {
+  margin-right: 1.5rem;
+}
+
+.container__heading {
+  font-size: 1.55rem;
+  font-weight: bold;
+  color: #323131;
+  margin-bottom: 1.3rem;
+  padding: 0 1.5rem;
+}

@@ -1,0 +1,21 @@
+.filter__title{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.filter__title h1{
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #4834d4;
+  padding:0 1.5rem;
+  text-transform:capitalize
+}
+
+.product__card__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}

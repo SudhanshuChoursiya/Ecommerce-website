@@ -1,0 +1,122 @@
+.form__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  position: relative;
+}
+
+.form__wrapper h6 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+}
+
+.form__field__container {
+  display: flex;
+}
+
+.form__field__container input {
+  width: 50%;
+  padding: 1rem;
+  margin: 0.8rem;
+  font-size: 1.5rem;
+  border: 0.2px solid #403737;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form__field__container input::placeholder {
+  font-size: 1.2rem;
+}
+
+.textArea__container {
+  margin: 0.8rem;
+}
+.textArea__container textarea::placeholder {
+  font-size: 1.28rem;
+}
+
+.textArea__container textarea {
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: 0.2px solid #403737;
+  border-radius: 5px;
+  width: 100%;
+  height: 120px;
+  outline: none;
+  resize: none;
+}
+
+.btn {
+  width: 90px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.8rem;
+  background-color: #4834d4;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 0.8rem;
+  text-transform: capitalize;
+}
+
+.toast__container {
+  margin: 0.2rem 0.8rem;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  .form__wrapper {
+    margin: 2rem 0;
+  }
+
+  .form__container {
+    width: 80vw;
+  }
+
+  .form__field__container {
+    flex-direction: column;
+  }
+
+  .form__field__container input {
+    width: auto;
+  }
+
+  .textArea__container textarea {
+    height: 12rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  .form__wrapper {
+    margin: 2rem 0;
+  }
+
+  .form__container {
+    width: 80vw;
+  }
+
+  .form__field__container {
+    flex-direction: column;
+  }
+
+  .form__field__container input {
+    width: auto;
+  }
+
+  .textArea__container textarea {
+    height: 12rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+}

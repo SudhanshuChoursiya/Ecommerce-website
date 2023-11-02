@@ -1,0 +1,85 @@
+.skeleton__card__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skeleton__card {
+  display: flex;
+  width: 550px;
+  height: auto;
+  background-color: white;
+  margin: 1.5rem 1rem;
+}
+
+.first__half .image__skeleton {
+  width: 12.5rem;
+  height: 13rem;
+  margin: 0.5rem;
+}
+
+.second__half {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto !important;
+  width: 100% !important;
+  padding: 0rem 0.5rem;
+}
+
+.second__half .text__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100% !important;
+  padding: 0.8rem 0.5rem 0rem 0.5rem;
+}
+
+.second__half .heading__skeleton {
+  height: 2.5rem;
+  width: 20rem;
+}
+
+.second__half .rating__skeleton {
+  height: 2rem;
+  width: 5rem;
+  /* margin: 0.5rem 0;*/
+}
+
+.second__half .price__skeleton {
+  height: 2rem;
+  width: 10rem;
+  /* margin: 0.5rem 0;*/
+}
+
+.second__half .btn__skeleton {
+  height: 2.8rem;
+  border-radius: 1rem;
+  padding: 0.65rem 0;
+  width: 10rem;
+  margin: 1rem 0.4rem;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  .skeleton__card {
+    width: 100%;
+  }
+
+  .second__half .btn__skeleton {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  .skeleton__card {
+    width: 100%;
+  }
+
+  .second__half .btn__skeleton {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+}

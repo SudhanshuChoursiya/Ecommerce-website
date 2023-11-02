@@ -1,0 +1,42 @@
+.profile__btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.profile__icon {
+  color: white;
+  font-size: 3rem !important;
+  margin: 0 2rem;
+}
+
+.list {
+  text-decoration: none;
+  color: black;
+}
+
+.list__icon {
+  font-size: 2rem !important;
+}
+
+.list__item {
+  list-style: none;
+  font-size: 1.4rem;
+  margin-left: 0.3rem;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  .profile__icon {
+    margin: 0;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  .profile__icon {
+    margin: 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+}

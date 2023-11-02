@@ -1,0 +1,20 @@
+.empty__cart__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty__cart__content h1 {
+  font-size: 2rem;
+  color: #4834d4;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.empty__cart__content img {
+  height: 12rem;
+  width: 12rem;
+  margin-bottom: 2rem;
+  margin-right: 1.3rem;
+}

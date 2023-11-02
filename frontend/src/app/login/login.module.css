@@ -1,0 +1,115 @@
+.login__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+}
+
+.modal__dialog {
+  padding: 2rem;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.modal__header {
+  margin: 1rem 0;
+}
+
+.modal__title {
+  text-align: center;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.modal__body {
+  margin-top: 1.2rem;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+}
+
+.login__form .form__label {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.login__form .form__input {
+  padding: 0.5rem;
+  font-size: 1.67rem;
+  border: 0.2px solid #403737;
+  border-radius: 2px;
+  outline: none;
+}
+
+.login__form .btn {
+  background-color: #4834d4;
+  color: white;
+  padding: 0.8rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 1.35rem !important;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1.3rem;
+}
+
+.alert__box {
+  font-size: 1.37rem;
+}
+
+.input__password__container {
+  position: relative;
+}
+
+.icon__container {
+  position: absolute;
+  top: 4.5px;
+  right: 5px;
+}
+
+.icon__container .icon {
+  font-size: 2.2rem !important;
+}
+
+.forget__password__link__container {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.forget__password__link__container a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.goto__signup__link__container {
+  text-align: center;
+}
+
+.goto__signup__link__container a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+
+  .modal__dialog {
+    margin: 5rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+
+  .modal__dialog {
+    margin: 5rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+}

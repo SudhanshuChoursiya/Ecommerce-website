@@ -1,0 +1,117 @@
+.product__review__container {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.container__heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.container__title {
+  height: 2.2rem;
+  margin:0 0.5rem;
+}
+
+.container__title__wrapper{
+  width: 55%;
+}
+
+.rate__product__btn__wrapper{
+  width:35%;
+}
+
+
+.rate__product__btn {
+  height: 2.2rem;
+  border-radius: 5px;
+}
+
+.product__review {
+  border-bottom: 1px solid #b9b9b9;
+  margin-bottom: 2rem;
+  padding: 1.5rem 0;
+}
+
+.user__container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.user__container .user__image {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+
+.user__name__container{
+  width:84%;
+}
+
+.user__container .user__name {
+  height: 2.2rem;
+  margin-left: 0.8rem;
+}
+
+.review__rating {
+  width: 40%;
+  height: 2.2rem;
+  margin: 0.5rem 0.5rem;
+}
+
+.review__title__container{
+  width:98%;
+}
+
+
+
+.product__review__container .review__title {
+  height: 2.2rem;
+  margin: 0.5rem 0.5rem;
+}
+
+.review__desc__container{
+  width:98%;
+}
+
+.product__review__container .review__desc {
+  height: 2.2rem;
+  margin: 0.5rem 0.5rem;
+}
+
+.other__details__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 0.5rem;
+  width: 98%;
+}
+
+.like__container {
+  border-radius: 4px;
+  height: 2.2rem;
+}
+
+.review__posted__date {
+  height: 2.2rem;
+}
+
+
+.first__half{
+  width:35%;
+}
+
+.second__half{
+  width:55%;
+}
+

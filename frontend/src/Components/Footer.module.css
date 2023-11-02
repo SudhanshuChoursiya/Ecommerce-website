@@ -1,0 +1,59 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #151c39;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.main__navigation__container {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+  padding: 1rem 0;
+}
+
+.navigation__container li,
+.products__navigation__container li,
+.signupAndLogin__navigation__container li {
+  list-style: none;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+
+.navigation__container a,
+.products__navigation__container a,
+.signupAndLogin__navigation__container a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.copyright__container p {
+  font-size: 1.3rem;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 1.4rem 1rem 0 1rem;
+}
+
+.underline {
+  width: 760px;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  .main__navigation__container {
+    width: 88vw;
+  }
+
+  .underline {
+    width: 90vw;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+}

@@ -1,0 +1,53 @@
+.slider__card__skeleton__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 0.91rem;
+}
+
+.slider__card__Skeleton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  width: 7rem;
+  margin: 0 0.7rem;
+}
+
+.slider__card__Skeleton .img__skeleton {
+  height: 5rem;
+  width: 5rem;
+}
+
+.slider__card__Skeleton .title__skeleton {
+  height: 1.5rem;
+  width: 5rem;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  .slider__card__Skeleton {
+    margin: 0 0.6rem;
+  }
+
+  .slider__card__skeleton__container {
+    justify-content: flex-start;
+    margin-left: 0.5rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  .slider__card__Skeleton {
+    margin: 0 0.6rem;
+  }
+
+  .slider__card__skeleton__container {
+    justify-content: flex-start;
+    margin-left: 0.5rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+}

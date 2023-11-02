@@ -1,0 +1,54 @@
+.card__slider__main__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:0.5rem;
+}
+ .card__slider__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  width: 7rem;
+  margin: 0 0.8rem;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+
+.card__slider__container img{
+  height: 5.5rem;
+  width:6rem;
+  object-fit: contain;
+}
+
+.card__slider__container h1{
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+
+.custom .swiper-slide{
+  width:90px!important;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  
+.card__slider__container{
+  margin: 0!important;
+}
+
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+.card__slider__container{
+  margin: 0!important;
+}
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+
+  
+}

@@ -1,0 +1,295 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+  position: relative;
+  height: 5rem!important;
+  transition: all 0.2s ease-in-out;
+  background-color: #4834d4;
+}
+
+.logo__container {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  margin-left: 3.5rem;
+}
+
+.logo__container h1 {
+  font-size: 1.75rem;
+  color: white;
+  margin: 0 0.6rem;
+}
+
+.list__container {
+  display: flex;
+  justify-content: flex-start;
+  width: 300px;
+}
+
+.list__container li {
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.list__container a {
+  text-decoration: none;
+}
+
+.cart__icon {
+  color: white;
+  font-size: 2.9rem !important;
+}
+
+.cart__icon__container {
+  position: absolute;
+  top: 10px;
+  right: 105px !important;
+}
+
+.cart__icon__wrapper {
+  position: relative;
+}
+
+.cart__count {
+  background-color: #d63031;
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  border-radius: 50%;
+  padding: 0.35rem 0.7rem;
+}
+
+.hamburger__container {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 2px;
+  padding: 1rem;
+}
+
+.hamburger__icon {
+  color: white;
+  font-size: 3rem !important;
+}
+
+.search__container {
+  position: absolute;
+  top: 11.2px;
+  right: 330px;
+}
+
+.search__btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.search__icon {
+  font-size: 2rem !important;
+  color: black;
+}
+
+.search__container input {
+  font-size:1.4rem;
+  width: 300px;
+  height: 28px;
+  padding: 0 3.5rem 0 1rem;
+  outline: none;
+  border: none;
+  border-radius: 2.5px;
+}
+
+.search__container input::placeholder{
+  font-size:1.35rem;
+}
+
+.suggestions__container {
+  position: absolute;
+  z-index: 999;
+  max-height: 200px;
+  overflow-y: auto;
+  top: 27.5px;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  border-radius: 2.5px;
+  width: 300px;
+  margin: 0 auto;
+  border: none;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.suggestion__list__container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.suggestion__list__container .suggestion__list {
+  list-style: none;
+  font-size: 1.3rem;
+  color: black;
+  margin: 1rem 0;
+  width: 100%;
+  text-align: left;
+}
+
+.profile__container {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 52px;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  .nav {
+    height: 10rem!important;
+  }
+
+  .logo__container {
+    margin: 0 1.1rem;
+  }
+
+  .navbar__scroll {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .search__container {
+    top: 50px;
+    right: 0px;
+    left: 0;
+    text-align: center;
+  }
+
+  .search__btn {
+    position: absolute;
+    top: 7.2px;
+    right: 20px;
+  }
+
+  .search__container input {
+    width: 93vw;
+    height: 34px;
+  }
+
+  .suggestions__container {
+    position: absolute;
+    z-index: 999;
+    max-height: 200px;
+    overflow-y: auto;
+    top: 34px;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    border-radius: 2.5px;
+    width: 93vw;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .hamburger__container {
+    display: block;
+  }
+
+  .cart__icon__container {
+    right: 100px !important;
+  }
+
+  .profile__container {
+    display: block;
+  }
+
+  .list__container {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  .nav {
+    height: 10rem;
+  }
+
+  .logo__container {
+    margin: 0 1.1rem;
+  }
+
+  .navbar__scroll {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .search__container {
+    top: 50px;
+    right: 0px;
+    left: 0;
+    text-align: center;
+  }
+
+  .search__btn {
+    position: absolute;
+    top: 7.2px;
+    right: 20px;
+  }
+
+  .search__container input {
+    width: 93vw;
+    height: 34px;
+  }
+
+  .suggestions__container {
+    position: absolute;
+    z-index: 999;
+    max-height: 200px;
+    overflow-y: auto;
+    top: 34px;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    border-radius: 2.5px;
+    width: 93vw;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .hamburger__container {
+    display: block;
+  }
+
+  .cart__icon__container {
+    right: 100px !important;
+  }
+
+  .profile__container {
+    display: block;
+  }
+
+  .list__container {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) and (max-width: 2200px) {
+}
+
+@media (min-width: 2201px) and (max-width: 5500px) {
+}

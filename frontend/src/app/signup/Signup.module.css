@@ -1,0 +1,87 @@
+.signup__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.modal__dialog {
+  padding: 2rem;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.modal__body {
+  margin-top: 1rem;
+}
+
+.modal__header {
+  margin: 1rem 0;
+}
+
+.modal__title {
+  text-align: center;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.signup__form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.signup__form .form__label {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.signup__form .form__input {
+  padding: 0.5rem;
+  font-size: 1.67rem;
+  border: 0.2px solid #403737;
+  border-radius: 2px;
+  outline: none;
+}
+
+.modal__footer .btn {
+  background-color: #4834d4;
+  color: white;
+  padding: 0.8rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 1.35rem !important;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  margin-top:1.2rem;
+}
+
+.alert__box {
+  font-size: 1.37rem;
+}
+
+.modal__footer a {
+  font-size: 1.55rem;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+
+  .modal__dialog {
+    margin: 3rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+
+  .modal__dialog {
+    margin: 3rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+}

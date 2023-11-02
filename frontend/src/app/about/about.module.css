@@ -1,0 +1,23 @@
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding:0 3rem;
+}
+
+
+.main__heading{
+  text-align: center;
+  font-size:2rem;
+  text-transform: capitalize;
+  color: #2c2c2b;
+  font-weight: 600;
+}
+
+.about__us__para p{
+  font-size:1.5rem;
+  color: #52524f;
+  margin-top:1rem;
+}

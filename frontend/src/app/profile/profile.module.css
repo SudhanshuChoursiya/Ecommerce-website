@@ -1,0 +1,161 @@
+.profile__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.profile__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 500px;
+  margin: 2rem 0;
+}
+
+.profile__img__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.image__delete__container {
+  position: absolute;
+  bottom: -2px;
+  right: 12px;
+  background-color: #4834d4;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image__delete__container:hover {
+  background-color: #301293;
+}
+
+.image__delete__icon {
+  font-size: 1.6rem !important;
+  color: white;
+}
+
+.image__edit__container {
+  position: absolute;
+  bottom: -2px;
+  right: 12px;
+  background-color: #4834d4;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image__edit__container:hover {
+  background-color: #301293;
+}
+
+.image__edit__icon {
+  font-size: 1.55rem !important;
+  color: white;
+}
+
+.edit__proile__icon__container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #4834d4;
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit__icon {
+  font-size: 2.2rem !important;
+  color: white;
+}
+
+.profile__img__container img {
+  border-radius: 50%;
+  border: 2px solid #4834d4;
+  height: 12.5rem;
+  width: 12.5rem;
+  object-fit: cover;
+}
+.profile__info__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.profile__info__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.profile__info__container label {
+  font-size: 1.4rem;
+  padding: 1rem 0.3rem;
+}
+
+.profile__info__container input {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  font-size: 1.45rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+}
+
+.edit__btn__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.edit__btn {
+  background-color: #4834d4;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  padding: 1rem 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0.8rem 0;
+  text-transform: capitalize;
+  font-weight: bold;
+  position: relative;
+}
+
+.spinner {
+  color: white !important;
+  position: absolute;
+  top: 7px;
+  left: 110px;
+  font-weight: bolder !important;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  .profile__container {
+    width: 90vw;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  .profile__container {
+    width: 90vw;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+}

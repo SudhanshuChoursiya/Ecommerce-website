@@ -1,0 +1,53 @@
+.verification__success__container {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  flex:1;
+}
+
+.verification__success__container img {
+  margin: 1rem 0;
+  height: 12rem;
+  width: 12rem;
+}
+
+.verification__success__container p {
+  text-align: center;
+  font-size: 1.6rem;
+  color: black;
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.verification__success__container a {
+  margin-top: 0.5rem;
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+.verification__success__container h1 {
+  font-size: 2.2rem;
+}
+
+.verification__success__container h2 {
+  font-size: 2.2rem;
+}
+
+.goto__login__button {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  background-color: #8696FE;
+  color: whitesmoke;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding:0.5rem 1rem;
+  margin: 1rem 0;
+  outline: none;
+  border: none;
+}
+
+.goto__login__button:hover{
+  background-color: #4942E4;
+}

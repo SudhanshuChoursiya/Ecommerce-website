@@ -1,0 +1,76 @@
+.skeleton__card__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skeleton__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 28rem;
+  width: 17rem;
+  background-color: #f5f5f5;
+  margin: 1.5rem 0.8rem;
+  padding-top: 0.8rem;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.skeleton__card .image__skeleton {
+  width: 15rem;
+  height: 13rem;
+  margin: 1rem 0;
+}
+
+.skeleton__card .heading__skeleton {
+  height: 1.8rem;
+  width: 15rem;
+}
+
+.skeleton__card .rating__skeleton {
+  height: 1.8rem;
+  width: 15rem;
+  margin: 0.5rem 0;
+}
+
+.skeleton__card .price__skeleton {
+  height: 1.8rem;
+  width: 15rem;
+  margin: 0.5rem 0;
+}
+
+.skeleton__card .shiping__cost {
+  height: 1.8rem;
+  width: 15rem;
+  margin: 0.5rem 0;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  .skeleton__card {
+    margin: 0 !important;
+    border-right: 1px solid #dcdde1;
+    border-bottom: 1px solid #dcdde1;
+    box-shadow: none !important;
+    width: 50%;
+  }
+
+  .skeleton__card:nth-child(2n) {
+    border-right: none !important;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  .skeleton__card {
+    margin: 0 !important;
+    border-right: 1px solid #dcdde1;
+    border-bottom: 1px solid #dcdde1;
+    box-shadow: none !important;
+    width:50%;
+  }
+  .skeleton__card:nth-child(2n) {
+    border-right: none !important;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+}

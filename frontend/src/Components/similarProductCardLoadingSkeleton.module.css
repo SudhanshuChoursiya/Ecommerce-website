@@ -1,0 +1,71 @@
+.page__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  padding: 1.5rem 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.1);
+}
+.card__loading__slider__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.container__heading {
+  width: 70%;
+  margin: 0 1.5rem 1.3rem 1.5rem;
+  height: 2.5rem;
+}
+
+.card__wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 27rem;
+  width: 12.5rem;
+  margin-left: 1.5rem;
+  background-color: white;
+  border: 1px solid #eeeeee;
+}
+
+.img__container {
+  width: 11rem;
+  height: 11rem;
+  margin: 0.5rem;
+}
+
+.card__wrapper .title {
+  margin: 0.5rem;
+  height: 2.5rem;
+  width: 11rem;
+}
+
+.rating__container {
+  margin: 0.5rem;
+  height: 2.5rem;
+  width: 11rem;
+}
+
+.card__wrapper .price {
+  margin: 0.5rem;
+  height: 2.5rem;
+  width: 11rem;
+}
+
+.shiping__cost {
+  margin: 0.5rem;
+  height: 2.5rem;
+  width: 11rem;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+}

@@ -1,0 +1,20 @@
+.page__wrapper{
+  width:835px;
+  margin: 0 auto;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  .page__wrapper{
+    width: 100vw;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .page__wrapper{
+    width: 100vw;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1023px) {
+  
+}

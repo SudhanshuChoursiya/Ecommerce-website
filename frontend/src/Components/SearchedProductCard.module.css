@@ -1,0 +1,92 @@
+.card {
+  display: flex;
+  width: 550px;
+  height: auto;
+  background-color: white;
+  margin: 1.5rem 1rem;
+}
+
+.second__half {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto !important;
+  width: 100% !important;
+  padding: 0rem 0.5rem;
+}
+
+.second__half .text__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100% !important;
+  padding: 0.8rem 0.5rem 0rem 0.5rem;
+}
+
+.first__half img {
+  width: 12.5rem;
+  height: 13rem;
+  padding: 0.5rem;
+  object-fit: contain;
+}
+
+.second__half .title {
+  font-size: 1.45rem;
+  font-weight: 550;
+  text-transform: capitalize;
+}
+.second__half .price {
+  font-size: 1.35rem;
+  font-weight: 550;
+  text-transform: capitalize;
+}
+
+.second__half .rating__container {
+  display: flex;
+  align-items: center;
+}
+
+.rating__container .rating {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-top: 0.3rem;
+  margin: 0 0.3rem;
+}
+
+.second__half .btn {
+  background-color: #4834d4;
+  color: white;
+  border-radius: 1rem;
+  font-size: 1.38rem;
+  padding: 0.65rem 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 35%;
+  text-transform: uppercase;
+  font-weight: 650;
+  margin: 1rem 0;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  .card {
+    width: 100%;
+  }
+
+  .second__half .btn {
+    width: 100%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  .card {
+    width: 100%;
+  }
+
+  .second__half .btn {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+}
