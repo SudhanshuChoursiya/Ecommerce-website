@@ -8,7 +8,7 @@ const {
   uploadToCloudinary,
   removeFromCloudinary,
 } = require("../middleware/cloudinary.js");
-const contactDetails = require("../models/contactform.js");
+const contactDetails = require("../models/contactform.js"); 
 
 const sliderImages = require("../models/slider_images.js");
 
