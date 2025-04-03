@@ -1,119 +1,106 @@
-E-Commerce Website (Full Stack)
+# Ecommerce Website
 
-Overview
+A modern eCommerce web application built using **Next.js, Redux, Node.js, and MongoDB**.
 
-This is a MERN stack E-Commerce website with Next.js for the frontend and Express.js + MongoDB for the backend. It includes features such as user authentication, product listings, and cart management. Both the frontend and backend are deployed on Vercel.
+## Live Demo
 
+[Click here to visit the live website](https://ecomerce-web-frontend-c8sfiwqkp-sudhanshuchoursiyas-projects.vercel.app/)
 
----
+## Features
 
-Tech Stack
+- **User Authentication** – Secure JWT-based authentication
+- **Product Listing & Filtering** – Browse products with advanced filters
+- **Cart & Checkout** – Seamless cart management
+- **Order History & Profile Management** – Users can track orders and update profiles
+- **Admin Dashboard** – Manage products efficiently
 
-Frontend:
+## Tech Stack
 
-Next.js (React 18)
+### Frontend
 
-Material UI (UI Components)
+- **Framework:** Next.js
+- **State Management:** Redux Toolkit
+- **UI Library:** Material UI
 
-Redux Toolkit & Redux Persist (State Management)
+### Backend
 
-Moment.js, Swiper.js (For enhanced UX)
+- **Runtime:** Node.js
+- **Framework:** Express.js
+- **Database:** MongoDB (Mongoose ODM)
+- **Authentication:** JSON Web Token (JWT)
 
+## Installation & Setup
 
-Backend:
+### Prerequisites
 
-Node.js & Express.js
+Ensure you have the following installed:
 
-MongoDB & Mongoose
+- **Node.js** (Latest LTS version)
+- **MongoDB** (Local or cloud-based)
 
-JWT Authentication
+### Steps to Run Locally
 
-Multer & Cloudinary (File Uploads)
+#### Clone the Repository
 
-Nodemailer (Email Functionality)
+```sh
+git clone https://github.com/SudhanshuChoursiya/Ecomerce-web.git
+cd Ecomerce-web
+```
 
+#### Frontend Setup
 
-Deployment:
-
-Frontend: Vercel
-
-Backend: Vercel
-
-Database: MongoDB Atlas
-
-
-
----
-
-Installation & Setup
-
-Prerequisites
-
-Node.js & npm installed
-
-MongoDB (Local or Atlas)
-
-
-Steps to Run Locally
-
-Frontend Setup
-
-# Clone the repository
-git clone https://github.com/your-username/your-repo.git
-cd your-repo/frontend
-
-# Install dependencies
+```sh
+cd frontend
 npm install
-
-# Start the development server
 npm run dev
+```
 
-Open the browser and visit http://localhost:3000
+- Open [`http://localhost:3000`](http://localhost:3000) in your browser.
 
+#### Backend Setup
 
-Backend Setup
-
-cd ../backend
-
-# Install dependencies
+```sh
+cd backend
 npm install
+```
 
-# Create a .env file and add:
+Create a `.env` file in the **backend** folder and add:
+
+```env
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 CLOUDINARY_URL=your_cloudinary_url
+```
 
-# Start the backend server
+Run the backend server:
+
+```sh
 npm run dev
+```
 
-Backend will run at http://localhost:5000
+- Backend will run at [`http://localhost:5000`](http://localhost:5000).
 
+## Available Scripts
 
+### Frontend Scripts
 
----
-
-Available Scripts
-
-Frontend Scripts
-
+```sh
 npm run dev     # Start development server
 npm run build   # Build for production
 npm run start   # Start production server
 npm run lint    # Run ESLint checks
+```
 
-Backend Scripts
+### Backend Scripts
 
+```sh
 npm run dev     # Start backend with nodemon
 npm run start   # Start backend in production
+```
 
-
----
-
-Contact
+## Contact
 
 For any inquiries, feel free to reach out:
 
-Email: sudhanshuchoursiya2@gmail.com
-
-
-
+- **Email:** sudhanshuchoursiya2@gmail.com
+- **GitHub:** [SudhanshuChoursiya](https://github.com/SudhanshuChoursiya)
