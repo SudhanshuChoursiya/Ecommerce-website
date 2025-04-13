@@ -7,20 +7,19 @@ import CardSlider from "../Components/CardSlider.js";
 import ProductCard from "../Components/ProductCard.js";
 
 const Home = async () => {
-  return (
-    <>
-      <LoggedinToast />
-      <SnackbarToast />
-      <CardSlider />
-      <ImageSlider />
-      <ProductCard />
-    </>
-  );
+    return (
+        <>
+            <LoggedinToast />
+            <SnackbarToast />
+            <CardSlider />
+            <ImageSlider />
+            <ProductCard />
+        </>
+    );
 };
 
 export const metadata = {
-  title: "Home",
+    title: "Home"
 };
-
 
 export default Home;

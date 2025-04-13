@@ -10,7 +10,7 @@ const AboutPage = () => {
       <div className={styles.about__us__para}>
         <p>
           At this web store, we are passionate about delivering top-quality
-          products to our customers. Founded in 2023, our journey began with a
+          products to our customers. Founded in 2024, our journey began with a
           simple idea: to provide an unmatched shopping experience. we take
           pride in offering a diverse range of products that meet the highest
           standards of quality. Our commitment to customer satisfaction is at
